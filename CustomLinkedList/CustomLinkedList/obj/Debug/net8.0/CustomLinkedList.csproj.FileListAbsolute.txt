@@ -1,0 +1,11 @@
+C:\Users\THINH\Desktop\Test Room\CustomLinkedList\obj\Debug\net8.0\CustomLinkedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\THINH\Desktop\Test Room\CustomLinkedList\obj\Debug\net8.0\CustomLinkedList.AssemblyInfoInputs.cache
+C:\Users\THINH\Desktop\Test Room\CustomLinkedList\obj\Debug\net8.0\CustomLinkedList.AssemblyInfo.cs
+C:\Users\THINH\Desktop\Test Room\CustomLinkedList\obj\Debug\net8.0\CustomLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\THINH\Desktop\Test Room\CustomLinkedList\bin\Debug\net8.0\CustomLinkedList.deps.json
+C:\Users\THINH\Desktop\Test Room\CustomLinkedList\bin\Debug\net8.0\CustomLinkedList.dll
+C:\Users\THINH\Desktop\Test Room\CustomLinkedList\bin\Debug\net8.0\CustomLinkedList.pdb
+C:\Users\THINH\Desktop\Test Room\CustomLinkedList\obj\Debug\net8.0\CustomLinkedList.dll
+C:\Users\THINH\Desktop\Test Room\CustomLinkedList\obj\Debug\net8.0\refint\CustomLinkedList.dll
+C:\Users\THINH\Desktop\Test Room\CustomLinkedList\obj\Debug\net8.0\CustomLinkedList.pdb
+C:\Users\THINH\Desktop\Test Room\CustomLinkedList\obj\Debug\net8.0\ref\CustomLinkedList.dll

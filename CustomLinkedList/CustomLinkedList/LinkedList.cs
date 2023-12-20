@@ -78,6 +78,65 @@
             return currentNode;
         }
 
+        //Remove First
+        public void RemoveFirst()
+        {
+            if (this.First == null || Count == 0)
+            {
+                return;
+            }
 
+            First = First.Next;
+            Count--;
+        }
+
+        public void Remove(Node<T> delNode)
+        {
+            //nothing to do
+            if (this.First == null || Count == 0)
+            {
+                return;
+            }
+
+            //if the delete node is the first node
+            if(delNode == this.First)
+            {
+                this.RemoveFirst();
+                return;
+            }
+
+            //if not, then we will need to traverse the linked list to find the delete node and remove it
+            Node<T> previous = this.First;
+            Node<T> current = this.First.Next;
+
+            while (current != null && current != delNode)
+            {
+                //move to the next node
+                previous = current;
+                current = previous.Next;
+            }
+
+            //remove it
+            if(current != null)
+            {
+                previous.Next = current.Next;
+                Count--;
+            }
+        }
+
+        //Traverse to check out all data in the LinkedList
+        public void Traverse()
+        {
+            Console.WriteLine("\nFirst " + this.First.Data);
+            Console.WriteLine("Last " + this.Last.Data);
+
+            Node<T> node = this.First;
+            while(node.Next != null)
+            {
+                Console.WriteLine(node.Data);
+                node = node.Next;
+            }
+            Console.WriteLine(node.Data);
+        }
     }
 }
